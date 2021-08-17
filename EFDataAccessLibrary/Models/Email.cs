@@ -4,7 +4,9 @@ using System.Text;
 
 namespace EFDataAccessLibrary.Models
 {
-    class Email
+    public class Email
     {
+        public int Id { get; set; }
+        public string EmailAddress { get; set; }
     }
 }

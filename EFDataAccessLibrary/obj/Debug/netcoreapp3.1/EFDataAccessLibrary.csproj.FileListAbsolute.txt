@@ -1,0 +1,11 @@
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.deps.json
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.runtimeconfig.json
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.runtimeconfig.dev.json
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.AssemblyInfo.cs
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.genruntimeconfig.cache
