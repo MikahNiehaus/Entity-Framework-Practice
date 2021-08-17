@@ -9,3 +9,4 @@ C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netc
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.genruntimeconfig.cache
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.csproj.AssemblyReference.cache

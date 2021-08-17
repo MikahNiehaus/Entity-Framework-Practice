@@ -12,8 +12,8 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(nullable: true),
-                    LastName = table.Column<string>(nullable: true),
+                    FirstName = table.Column<string>(nullable: false),
+                    LastName = table.Column<string>(nullable: false),
                     Age = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -27,11 +27,11 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    StreetAddress = table.Column<string>(nullable: true),
-                    City = table.Column<string>(nullable: true),
-                    State = table.Column<string>(nullable: true),
-                    ZipCode = table.Column<string>(nullable: true),
-                    PersonId = table.Column<int>(nullable: true)
+                    StreetAddress = table.Column<string>(nullable: false),
+                    City = table.Column<string>(nullable: false),
+                    State = table.Column<string>(nullable: false),
+                    ZipCode = table.Column<string>(nullable: false),
+                    PersonId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,8 +50,8 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    EmailAddress = table.Column<string>(nullable: true),
-                    PersonId = table.Column<int>(nullable: true)
+                    EmailAddress = table.Column<string>(nullable: false),
+                    PersonId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
