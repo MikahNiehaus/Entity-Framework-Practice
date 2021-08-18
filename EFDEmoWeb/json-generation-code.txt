@@ -1,11 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿add code shown below to https://www.json-generator.com/ to make new generated json
 
-namespace EFDEmoWeb
-{
-    public class json_generation_code
-    {
-    }
-}
+[
+  '{{repeat(101)}}',
+  {
+    
+    
+    FirstName: '{{firstName()}}',
+    LastName: '{{firstName()}}',
+    Address: [
+      '{{repeat(3)}}',
+      {
+        StreetAddress: '{{street()}}',
+        City: '{{city()}}',
+        State: '{{state()}}',
+        ZipCode: '{{integer(100, 10000)}}'
+      
+      }
+    ],
+    EmailAddress: [
+      '{{repeat(4)}}',
+      {
+       EmailAddress: '{{email()}}'
+        
+      
+      }
+    ]
+  }
+  ]

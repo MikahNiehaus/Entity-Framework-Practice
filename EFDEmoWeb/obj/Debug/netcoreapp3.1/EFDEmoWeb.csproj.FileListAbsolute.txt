@@ -57,3 +57,4 @@ C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDEmoWeb\obj\Debug\netcoreapp3.1\
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.pdb
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.genruntimeconfig.cache
 C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDEmoWeb\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mikah.niehaus\source\repos\EFDEmoApp\EFDEmoWeb\bin\Debug\netcoreapp3.1\generated.json

@@ -19,6 +19,6 @@ namespace EFDataAccessLibrary.Models
 
         [Required]
         public List<Address> Addresses { get; set; } = new List<Address>();
-        public List<Email> EmailsAddresses { get; set; } = new List<Email>();
+        public List<Email> EmailAddresses { get; set; } = new List<Email>();
     }
 }
