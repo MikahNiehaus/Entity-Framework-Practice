@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4A7QzW3usk/VqzDIudqsvkSt8dH+yse6dNzeRcWQLZNNczaMBc4iUmokt+w9c7jHXoCSyY9/+nzHwWzIEuQ3zA==",
+  "dgSpecHash": "6Ixz7y6deqeJZBFujQzitunBEqMAePIJtz/rs3hukQA2pCGb3Yk1sXziXdRiTT8Uk/4dIcG5eAgH4+wcGMzChw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDEmoWeb\\EFDEmoWeb.csproj",
+  "projectFilePath": "C:\\Users\\mikah.niehaus\\source\\repos\\Entity-Framework-Practice\\EFDEmoWeb\\EFDEmoWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikah.niehaus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\mikah.niehaus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

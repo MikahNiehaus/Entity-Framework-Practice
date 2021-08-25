@@ -2,7 +2,7 @@
 
 namespace EFDataAccessLibrary.Migrations
 {
-    public partial class InitialDBCreation : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,9 +12,8 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(nullable: false),
-                    LastName = table.Column<string>(nullable: false),
-                    Age = table.Column<int>(nullable: false)
+                    FirstName = table.Column<string>(maxLength: 50, nullable: false),
+                    LastName = table.Column<string>(maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -27,11 +26,11 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    StreetAddress = table.Column<string>(nullable: false),
-                    City = table.Column<string>(nullable: false),
-                    State = table.Column<string>(nullable: false),
-                    ZipCode = table.Column<string>(nullable: false),
-                    PersonId = table.Column<int>(nullable: false)
+                    StreetAddress = table.Column<string>(maxLength: 200, nullable: false),
+                    City = table.Column<string>(maxLength: 200, nullable: false),
+                    State = table.Column<string>(maxLength: 50, nullable: false),
+                    ZipCode = table.Column<string>(type: "varchar(10)", maxLength: 10, nullable: false),
+                    PersonId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -50,8 +49,8 @@ namespace EFDataAccessLibrary.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    EmailAddress = table.Column<string>(nullable: false),
-                    PersonId = table.Column<int>(nullable: false)
+                    EmailAddress = table.Column<string>(maxLength: 200, nullable: false),
+                    PersonId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {

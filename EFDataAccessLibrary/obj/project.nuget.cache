@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C7Hnwgu520MtV0+RBhjtMJaqYAAT/xZ7GlS4uerI0XpoabvuT+fj6ViDJ9UbledpQ/9rj8et5h49ZA/BqwTouQ==",
+  "dgSpecHash": "9sC+wIXK9ANb8ObjVCg1XvmYZ0GhG0ACNRp0/cuI21F+tCG9XCeliEKf5DJsXjEjG/NIIQuSPFulY/CMAIzyxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
+  "projectFilePath": "C:\\Users\\mikah.niehaus\\source\\repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikah.niehaus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\mikah.niehaus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

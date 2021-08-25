@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFDataAccessLibrary.Migrations
 {
     [DbContext(typeof(PeopleContext))]
-    [Migration("20210818174217_AddedValidation")]
-    partial class AddedValidation
+    [Migration("20210825210224_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -112,7 +112,7 @@ namespace EFDataAccessLibrary.Migrations
             modelBuilder.Entity("EFDataAccessLibrary.Models.Email", b =>
                 {
                     b.HasOne("EFDataAccessLibrary.Models.Person", null)
-                        .WithMany("EmailsAddresses")
+                        .WithMany("EmailAddresses")
                         .HasForeignKey("PersonId");
                 });
 #pragma warning restore 612, 618

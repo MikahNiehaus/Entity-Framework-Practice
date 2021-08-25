@@ -8,6 +8,8 @@
   <ItemGroup>
     <Compile Remove="Migrations\20210817232221_RemoveAgeColumn.cs" />
     <Compile Remove="Migrations\20210817232221_RemoveAgeColumn.Designer.cs" />
+    <Compile Remove="Migrations\20210825210059_inital.cs" />
+    <Compile Remove="Migrations\20210825210059_inital.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
