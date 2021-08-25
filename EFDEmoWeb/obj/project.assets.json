@@ -5023,11 +5023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDEmoWeb\\EFDEmoWeb.csproj",
+      "projectUniqueName": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDEmoWeb\\EFDEmoWeb.csproj",
       "projectName": "EFDEmoWeb",
-      "projectPath": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDEmoWeb\\EFDEmoWeb.csproj",
+      "projectPath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDEmoWeb\\EFDEmoWeb.csproj",
       "packagesPath": "C:\\Users\\mikah.niehaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDEmoWeb\\obj\\",
+      "outputPath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDEmoWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5051,8 +5051,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj"
+            "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj": {
+              "projectPath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj"
             }
           }
         }

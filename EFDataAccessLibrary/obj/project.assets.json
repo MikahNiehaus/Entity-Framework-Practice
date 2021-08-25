@@ -5004,11 +5004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
       "projectName": "EFDataAccessLibrary",
-      "projectPath": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
+      "projectPath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
       "packagesPath": "C:\\Users\\mikah.niehaus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikah.niehaus\\source\\repos\\EFDEmoApp\\EFDataAccessLibrary\\obj\\",
+      "outputPath": "C:\\Users\\mikah.niehaus\\Source\\Repos\\Entity-Framework-Practice\\EFDataAccessLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

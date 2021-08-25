@@ -36,18 +36,7 @@ namespace EFDEmoWeb.Pages
                 db.AddRange(people);
                 db.SaveChanges();
             }
-            /*if (db.EmailAddresses.Count() == 0)
-            {
-                var emailAddresses = JsonSerializer.Deserialize<List<Email>>(file);
-                db.AddRange(emailAddresses);
-                db.SaveChanges();
-            }
-            if (db.Addresses.Count() == 0)
-            {
-                var addresses = JsonSerializer.Deserialize<List<Email>>(file);
-                db.AddRange(addresses);
-                db.SaveChanges();
-            }*/
+          
         }
     }
 }
