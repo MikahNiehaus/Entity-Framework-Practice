@@ -29,18 +29,15 @@ namespace EFDEmoWeb.Pages
 
         private void LoadSampleData()
         {
-            string file = System.IO.File.ReadAllText("generated.json");
-            var people = JsonSerializer.Deserialize<List<Person>>(file);
-            db.AddRange(people);
-            db.SaveChanges();
             
-            /* if (db.People.Count() == 0)
+
+            if (db.People.Count() == 0)
              {
                  string file = System.IO.File.ReadAllText("generated.json");
                  var people = JsonSerializer.Deserialize<List<Person>>(file);
                  db.AddRange(people);
                  db.SaveChanges();
-             }*/
+             }
 
         }
 
