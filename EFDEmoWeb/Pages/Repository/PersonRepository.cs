@@ -39,8 +39,10 @@ namespace ProCodeGuide.Samples.EFCore.Repository
             var personupt = await _dbcontext.Person.Where(empid => empid.Id == id).FirstOrDefaultAsync();
             if (personupt == null) return "Person does not exists";
 
-           // personupt.Designation = person.age;
-
+            personupt.Age = person.Age;
+            personupt.Addresses = person.Addresses;
+            personupt.EmailAddresses = person.EmailAddresses;
+       
             await _dbcontext.SaveChanges();
             return "Person details successfully modified";
         }
