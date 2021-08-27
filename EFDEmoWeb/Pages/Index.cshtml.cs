@@ -2,6 +2,7 @@
 using EFDataAccessLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,7 @@ namespace EFDEmoWeb.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        private readonly PeopleContext db;
-
+        private PeopleContext db;  
         public IndexModel(ILogger<IndexModel> logger, PeopleContext db)
         {
             _logger = logger;
@@ -24,10 +24,11 @@ namespace EFDEmoWeb.Pages
 
         public void OnGet()
         {
-            LoadSampleData();
+            LoadSampleDataAsync();
+            
         }
 
-        private void LoadSampleData()
+        private async void LoadSampleDataAsync()
         {
             
 
@@ -38,8 +39,9 @@ namespace EFDEmoWeb.Pages
                  db.AddRange(people);
                  db.SaveChanges();
              }
+            var getPeople = await db.People.ToListAsync<Person>();
+            _logger.LogInformation("There are " + getPeople.Count.ToString() + " People in DataBase.");
 
-            
 
         }
 
