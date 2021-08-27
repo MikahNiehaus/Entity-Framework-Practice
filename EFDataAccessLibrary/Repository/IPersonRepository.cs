@@ -1,5 +1,4 @@
 ﻿using EFDataAccessLibrary.Models;
-using ProCodeGuide.Samples.EFCore.DbContexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

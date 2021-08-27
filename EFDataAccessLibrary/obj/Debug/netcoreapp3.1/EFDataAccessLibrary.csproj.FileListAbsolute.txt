@@ -22,3 +22,15 @@ C:\Users\mikah.niehaus\Source\Repos\Entity-Framework-Practice\EFDataAccessLibrar
 C:\Users\mikah.niehaus\Source\Repos\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
 C:\Users\mikah.niehaus\Source\Repos\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
 C:\Users\mikah.niehaus\Source\Repos\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.genruntimeconfig.cache
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.csproj.AssemblyReference.cache
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.AssemblyInfoInputs.cache
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.AssemblyInfo.cs
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.deps.json
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.runtimeconfig.json
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.runtimeconfig.dev.json
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.dll
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\bin\Debug\netcoreapp3.1\EFDataAccessLibrary.pdb
+C:\prj\Entity-Framework-Practice\EFDataAccessLibrary\obj\Debug\netcoreapp3.1\EFDataAccessLibrary.genruntimeconfig.cache

@@ -6,7 +6,6 @@ using EFDataAccessLibrary.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProCodeGuide.Samples.EFCore.DbContexts;
 using ProCodeGuide.Samples.EFCore.Repository;
 
 namespace ProCodeGuide.Samples.EFCore.Controllers
