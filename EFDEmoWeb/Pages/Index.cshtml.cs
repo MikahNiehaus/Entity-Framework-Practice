@@ -25,8 +25,8 @@ namespace EFDEmoWeb.Pages
         public void OnGet()
         {
             LoadSampleDataAsync();
-            //_ = GetAllAsync();
-             //  AddMikah();
+            _ = GetAllAsync();
+              AddMikah();
            // _ = EditAsync();
            _ = DeleteAsync();
 
