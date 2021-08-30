@@ -6,13 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20210817232221_RemoveAgeColumn.cs" />
-    <Compile Remove="Migrations\20210817232221_RemoveAgeColumn.Designer.cs" />
-    <Compile Remove="Migrations\20210825210059_inital.cs" />
-    <Compile Remove="Migrations\20210825210059_inital.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

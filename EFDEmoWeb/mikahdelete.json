@@ -1,0 +1,42 @@
+﻿[
+  {
+    "FirstName": "Mikah",
+    "LastName": "Niehaus",
+    "Age": 33,
+    "ID":  101,
+    "Addresses": [
+      {
+        "StreetAddress": "Grattan Street",
+        "City": "Martinsville",
+        "State": "South Dakota",
+        "ZipCode": "15740-0000"
+      },
+      {
+        "StreetAddress": "Dodworth Street",
+        "City": "Waikele",
+        "State": "Federated States Of Micronesia",
+        "ZipCode": "78351-0000"
+      },
+      {
+        "StreetAddress": "Lake Avenue",
+        "City": "Waterford",
+        "State": "Connecticut",
+        "ZipCode": "45057-0000"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailAddress": "haydenmcdonald@urbanshee.com"
+      },
+      {
+        "EmailAddress": "dorseythornton@bedder.com"
+      },
+      {
+        "EmailAddress": "lottiebattle@zialactic.com"
+      },
+      {
+        "EmailAddress": "brookechandler@twiggery.com"
+      }
+    ]
+  }
+]

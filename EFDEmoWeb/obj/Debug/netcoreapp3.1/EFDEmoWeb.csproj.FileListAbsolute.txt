@@ -178,3 +178,5 @@ C:\prj\Entity-Framework-Practice\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.Raz
 C:\prj\Entity-Framework-Practice\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.Views.pdb
 C:\prj\Entity-Framework-Practice\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.csproj.CopyComplete
 C:\prj\Entity-Framework-Practice\EFDEmoWeb\obj\Debug\netcoreapp3.1\EFDEmoWeb.genruntimeconfig.cache
+C:\prj\Entity-Framework-Practice\EFDEmoWeb\bin\Debug\netcoreapp3.1\mikah.json
+C:\prj\Entity-Framework-Practice\EFDEmoWeb\bin\Debug\netcoreapp3.1\mikahdelete.json
