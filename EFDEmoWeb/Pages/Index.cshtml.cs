@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace EFDEmoWeb.Pages
@@ -25,10 +26,10 @@ namespace EFDEmoWeb.Pages
         public void OnGet()
         {
             LoadSampleDataAsync();
-            _ = GetAllAsync();
-              AddMikah();
+            //_ = GetAllAsync();
+           //   AddMikah();
            // _ = EditAsync();
-           _ = DeleteAsync();
+           //_ = DeleteAsync();
 
         }
 
@@ -79,7 +80,13 @@ namespace EFDEmoWeb.Pages
         {
             //delete mikah
             //var getPeople = await db.People.ToListAsync<Person>();
-            var persondel = await db.People.Where(empid => empid.Id == 120).FirstOrDefaultAsync();
+            string mikahFile = System.IO.File.ReadAllText("mikah.json");
+            var mikah = JsonSerializer.Deserialize<List<Person>>(mikahFile);
+            db.People.AddRange(mikah);
+            db.SaveChanges();
+            Thread.Sleep(5000);
+            //add id of person you just made
+            var persondel = await db.People.Where(empid => empid.Id == 136).FirstOrDefaultAsync();
             db.People.Remove(persondel);
             await db.SaveChangesAsync();
 
